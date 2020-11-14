@@ -70,6 +70,16 @@ var btnAnnulla = document.getElementById('annulla');
 btnAnnulla.addEventListener('click',
   function() {
 
+    document.getElementById('nome').value = '';
+    document.getElementById('km').value = '';
+    document.getElementById('eta').value = '';
+
+    document.getElementById('nome-passeggero').innerHTML = '';
+    document.getElementById('biglietto_offerta').innerHTML = '';
+    document.getElementById('biglietto_carrozza').innerHTML = '';
+    document.getElementById('biglietto_codiceCP').innerHTML = '';
+    document.getElementById('biglietto_costo').innerHTML = '';
+
     var bigliettoId = document.getElementById('biglietto');
     bigliettoId.className = 'hidden';
   }
