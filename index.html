@@ -17,10 +17,37 @@
 
   <body>
 
-    <script src="js/script.js" charset="utf-8">
-      //codice js esterno
-    </script>
+    <div id="wrapper">
+      <h2>calcola il prezzo del tuo biglietto</h1>
 
+      <div id="dati">
+        <div class="top_dati">
+          <div class="nome">
+            <h4>Nome Cognome</h4>
+            <input id="nome" type="text" name="nome" placeholder="Inserisci il tuo nome">
+          </div>
+
+          <div class="km">
+            <h4>Km da percorrere</h4>
+            <input id="km" type="number" name="km" placeholder="Inserisci i Km">
+          </div>
+
+          <div class="eta">
+            <h4>Fascia età</h4>
+            <select id="eta" name="eta" placeholder="Inserisci il tuo nome">
+              <option value='minorenne'>Minorenne</option>
+              <option value='maggiorenne'>Maggiorenne</option>
+              <option value='over65'>Over65</option>
+          </div>
+        </div>
+        <div class="bottom_dati"></div>
+      </div>
+    </div>
+
+
+    <script src="js/script.js" charset="utf-8">
+    //codice js esterno
+    </script>
   </body>
 
 </html>
