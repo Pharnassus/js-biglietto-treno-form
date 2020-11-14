@@ -20,6 +20,39 @@ h4{
   color: #C64172;
 }
 
+.nome, .km, .eta{
+  width: 20%;
+  padding: 15px;
+  text-align: center;
+
+}
+.top_dati input, .top_dati select{
+  border: 2px solid #C64172;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+.btn{
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 10px;
+  border: 2px solid #C64172;
+  background-color: white;
+  color: #C64172;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+.btn:hover{
+  color: white;
+  background: green;
+  border: 2px solid black;
+}.btn.red:hover{
+  color: white;
+  background: red;
+  border: 2px solid black;
+}
+
 #wrapper{
   background: #B91450;
   width: 80%;
@@ -32,7 +65,7 @@ h4{
   background: white;
   height: 200px;
   border-radius: 15px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .top_dati{
   /* background: lime; */
@@ -40,18 +73,9 @@ h4{
   display: flex;
   justify-content: center;
 }
-.nome, .km, .eta{
-  /* background: red; */
-  width: 20%;
-  /* border: 1px solid black; */
-  padding: 15px;
+.bottom_dati{
+  /* background: lime; */
+  height: 45%;
   text-align: center;
-
-}
-.top_dati input, .top_dati select{
-  border: 2px solid #C64172;
-  border-radius: 5px;
-  width: 100%;
-  height: 30px;
-  text-align: center;
+  line-height: 90px;
 }
