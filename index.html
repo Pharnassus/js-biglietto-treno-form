@@ -9,8 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A==" crossorigin="anonymous" />
-    <!-- bootstrapCDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <!-- ms_CSS -->
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -43,8 +41,37 @@
         </div>
 
         <div class="bottom_dati">
-          <button class="btn" id="genera" type="button" name="genera">Genera</button>
-          <button class="btn red" id="annulla" type="button" name="annulla">Annulla</button>
+          <button id="genera" class="btn" type="button" name="genera">Genera</button>
+          <button id="annulla" class="btn red" type="button" name="annulla">Annulla</button>
+        </div>
+      </div>
+
+      <div id="biglietto" class="hidden">
+        <h2>il tuo biglietto</h2>
+        <div id="biglietto_stampa">
+          <h3>DETTAGLIO PASSEGGERI</h3>
+          <div class="biglietto_dati">
+            <div class="biglietto_nome">
+              <h3>PASSEGGERO</h3>
+              <h3 id="nome-passeggero"></h3>
+            </div>
+            <div class="biglietto_specifiche">
+              <h4>Offerta</h4>
+              <h4 id="biglietto_offerta"></h4>
+            </div>
+            <div class="biglietto_specifiche">
+              <h4>Carrozza</h4>
+              <h4 id="biglietto_carrozza"></h4>
+            </div>
+            <div class="biglietto_specifiche">
+              <h4>Codice CP</h4>
+              <h4 id="biglietto_codiceCP"></h4>
+            </div>
+            <div class="biglietto_specifiche">
+              <h4>Costo biglietto</h4>
+              <h4 id="biglietto_costo"></h4>
+            </div>
+          </div>
         </div>
       </div>
     </div>
